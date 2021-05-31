@@ -22,7 +22,7 @@
         <div>
             <img src="eu.png" alt="eu" class="img">
         </div>
-        <div class="neon">
+        <div class="neon" onclick="clicar()">
             <h1>Welcome</h1>
             <p>veja alguns links abaixo!</p>
         </div>
@@ -51,10 +51,13 @@
 
     <!-- aqui se inicia as funções em js e integrações com a biblioteca AOS -->
     <script>
-        window.scroll({
-            top: 400,
-            behavior: "smooth"
-        });
+
+        function clicar() {
+            window.scroll({
+                top: 500,
+                behavior: "smooth"
+            });
+        }
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
