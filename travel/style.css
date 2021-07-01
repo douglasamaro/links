@@ -59,6 +59,7 @@ body::-webkit-scrollbar {
   min-width: 100%;
   background: #c4c4c446;
   position: relative;
+  overflow-x: hidden;
 }
 
 .main1 {
@@ -79,6 +80,7 @@ body::-webkit-scrollbar {
 }
 
 .conteudo {
+  max-width: 100%;
   padding-top: 42vh;
   padding-left: 3vh;
 }
@@ -321,14 +323,14 @@ body::-webkit-scrollbar {
 
 .img-floresta {
   width: 100%;
-  height: 50vh;
+  height: 55vh;
 }
 
 .flor-descrição {
   top: 100%;
   color: white;
-  background: linear-gradient(to top, #086852, #0868523d);
-  height: 50vh;
+  background: linear-gradient(to top, #086852, #08685279);
+  height: 55vh;
   width: 100%;
   position: absolute;
   left: 0;
@@ -561,8 +563,56 @@ body::-webkit-scrollbar {
     font-size: 15px;
     padding-top: 7%;
   }
+  .conteudo h1 {
+    font-size: 30px;
+  }
+
+  .conteudo p {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+  }
+
+  .main1 {
+    opacity: 80%;
+  }
+
+  .praiap {
+    font-size: 30px;
+  }
+
+  .montanhap {
+    font-size: 30px;
+  }
+
+  .florestap {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 600px) {
+  .conteudo h1 {
+    font-size: 30px;
+  }
+
+  .conteudo p {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+  }
+
+  .main1 {
+    opacity: 80%;
+  }
+
+  .praiap {
+    font-size: 30px;
+  }
+
+  .montanhap {
+    font-size: 30px;
+  }
+
+  .florestap {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 400px) {
 }
