@@ -59,6 +59,7 @@ body::-webkit-scrollbar {
   min-width: 100%;
   background: #c4c4c446;
   position: relative;
+  overflow-x: hidden;
 }
 
 .main1 {
@@ -79,6 +80,7 @@ body::-webkit-scrollbar {
 }
 
 .conteudo {
+  max-width: 100%;
   padding-top: 42vh;
   padding-left: 3vh;
 }
@@ -569,7 +571,7 @@ body::-webkit-scrollbar {
 
   .conteudo p {
     font-size: 11px;
-    letter-spacing: 3.5px;
+    letter-spacing: 1.5px;
   }
 }
 @media screen and (max-width: 400px) {
