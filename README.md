@@ -6,7 +6,7 @@ organize seus links com essa página com tema NEON
 
 2)o segundo arquivo é o index.html, ali você vai alterar os titulos e os links.
 
-3)o ter cediro arquivo é o style.css, eu recomendo que você fça as alterações das cores.
+3)o terceiro arquivo é o style.css, eu recomendo que você faça as alterações das cores.
 
 4)deixei o arquivo comentado nas partes que eu achei necessárias..
 
