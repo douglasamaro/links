@@ -1,69 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Syncopate&display=swap');
-    </style>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <title>Douglas Amaro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;900&display=swap" rel="stylesheet"> 
+    <title>Douglas Amaro - Home</title>
 </head>
-
 <body>
-    <!-- aqui se inicia o cabeçalho da página, com a sua foto e com o titulo -->
-    <div class="inicio">
-        <div>
-            <img src="eu.png" alt="eu" class="img">
+    <Section class="container">
+        <p class="final">feito com &#10084 por Douglas Amaro</p>
+        <div class="card">
+            <img src="drawable/douglas.jpeg" alt="Douglas Amaro" class="douglas-foto">
+            <h1>Olá, me chamo Douglas Amaro</h1>
+            <p>
+                Java Developer Jr, iniciei minha carreira na programação como desenvolvedor Front End, mas com vontade de crescer, me mudei para o maravilhoso mundo do Back End, e agora trabalho com Java. 
+                <br>
+                Sou responsável, comunicativo, resiliente, organizado e com muita energia para passar trabalhando e desenvolvendo soluções com sua equipe!
+            </p>
+            <div class="redes">
+                <a href="https://instagram.com/douglasamro/"><img src="drawable/instagram.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/douglas-laurindo-7b8aa3187/"><img src="drawable/linkedin.png" alt="linkedin"></a>
+                <a href="mailto:douglasamarolaurindo@gmail.com"><img src="drawable/email.png" alt="email"></a>
+                <a href="github.com/douglasamaro/"><img src="drawable/github.png" alt="github"></a>
+            </div>
         </div>
-        <div class="neon" onclick="clicar()">
-             <p>clique aqui</p>
-            <h1>Welcome</h1>
-            <p>veja alguns links abaixo!</p>
-        </div>
-    </div>
-
-
-
-    <!-- aqui começa os links -->
-    <div class=" links">
-        <div class="link" data-aos="fade-up">
-            <a href="https://github.com/douglasamaro" class="botao">GitHub</a>
-        </div>
-        <div class="link" data-aos="fade-up">
-            <a href="mailto:douglaslaurindo288@gmail.com?Subject=Título%20da%20mensagem" target="_blank"
-                class="botao">Email decontato</a>
-        </div>
-        <div class="link" data-aos="fade-up">
-            <a href="https://github.com/douglasamaro/links" class="botao">Esse Código</a>
-        </div>
-        <div class="link" data-aos="fade-up">
-            <a href="https://www.bible.com/pt/bible/111/GEN.1.NIV" class="botao">Vai ler a Bíblia</a>
-        </div>
-    </div>
-
-
-
-    <!-- aqui se inicia as funções em js e integrações com a biblioteca AOS -->
-    <script>
-
-        function clicar() {
-            window.scroll({
-                top: 600,
-                behavior: "smooth"
-            });
-        }
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    </Section>
 </body>
-
 </html>
