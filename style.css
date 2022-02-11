@@ -97,17 +97,22 @@ background-image: url(drawable/ama-dablam-gb8ae656c9_1920.jpg);
 
     .card {
         height: 60vh;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .card h1 {
-        margin-top: 2vh;
+        margin-top: 1vh;
         font-size: 18px;
     }
     
     .card p {
         text-align: justify;
         font-weight: 300;
-        padding: 30px;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
         font-size: 13px;
     }
 
