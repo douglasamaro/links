@@ -141,9 +141,9 @@ background-image: url(drawable/ama-dablam-gb8ae656c9_1920.jpg);
 
     .card {
         height: 60vh;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .card h1 {
