@@ -154,10 +154,10 @@ background-image: url(drawable/ama-dablam-gb8ae656c9_1920.jpg);
     .card p {
         text-align: justify;
         font-weight: 300;
-        padding-top: 3vh;
+        padding-top: 1.5vh;
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 15px;
+        font-size: 14px;
         letter-spacing: -0.1px;
     }
 
