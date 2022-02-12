@@ -119,8 +119,8 @@ background-image: url(drawable/ama-dablam-gb8ae656c9_1920.jpg);
 
     .douglas-foto {
         margin-top: -7vh;
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
 
     .redes a img {
@@ -157,13 +157,14 @@ background-image: url(drawable/ama-dablam-gb8ae656c9_1920.jpg);
         padding-top: 3vh;
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 17px;
+        font-size: 15px;
+        letter-spacing: -0.1px;
     }
 
     .douglas-foto {
-        margin-top: -10vh;
-        width: 135px;
-        height: 135px;
+        margin-top: -7vh;
+        width: 100px;
+        height: 100px;
     }
 
     .redes a img {
